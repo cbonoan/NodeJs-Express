@@ -17,6 +17,7 @@ app.get("/dogs", (req, res) =>{
 
 app.get("/", (req, res) =>{
     res.send("HOME!!!")
+    console.log("Directed to home page")
 })
 
 // Routing with patterns
